@@ -11,7 +11,7 @@ def main():
         elif result < 0:
             print("The result is negative.")
         else:
-            print("The result is positive and negative.")  # สำหรับผลลัพธ์เป็น 0
+            print("The result is positive and negative.")
 
     except ValueError:
         print("Invalid input! Please enter valid numbers.")
